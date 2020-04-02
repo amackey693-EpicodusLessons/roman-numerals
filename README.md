@@ -23,10 +23,10 @@ Behavior Description        |   Input Ex.     |  Output Ex.
 - Does not accept a number  |    4000         |  Input a smaller number
 input higher than 3,999
 
-- Turns numbers 1, 5, 10    |   1 , 5, 10     |   I , V, X 
+- Turns numbers 1, 5, 10    |   1 , 5, 10     |  I , V, X 
 into respective symbols     |                 | 
 
-- Turns numbers 50, 100,    |  50, 100. 500   | L, C, D, M 
+- Turns numbers 50, 100,    |  50, 100. 500   |  L, C, D, M 
 500, 1000 into respective   |  1,000
 symbols  
 
@@ -39,7 +39,7 @@ correct symbols             |
 - Turns numbers <= 500 into |  200, 300, 400  |  CC , CCC , CD , D
 correct symbols             |     & 500
 
-- Turns number <= 1000 into | 600, 700, 800,  |  DC, DCC, DCCCC,
+- Turns number <= 1000 into | 600, 700, 800,  |  DC, DCC, DCCC,
 correct symbols             | 900 & 1000      |  CM, M
 
 - Adds numbers 1-100 to     |      444        |  CDXLIV  
