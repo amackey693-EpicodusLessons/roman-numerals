@@ -4,7 +4,7 @@ var numeralNumbers = [
   [3000, "MMM"], [2000, "MM"], [1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90,"XC"], [50,"L"], [40,"XL"],[10,"X"], [9,"IX"], [5, "V"], [4,"IV"], [1, "I"] 
 ];
 var toRomanNumeral = function(userInput) {
-  if (userInput === 0) {
+  if (userInput === 0 || userInput >= 3999) {
     return ' ';
   }
   for (var i=0; i < numeralNumbers.length; i++) {
